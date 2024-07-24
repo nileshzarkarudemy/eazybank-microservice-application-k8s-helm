@@ -290,6 +290,8 @@ services:
   accounts:
     image: "nileshzarkar/accounts:s14"
     container_name: accounts-ms
+    ports:
+      - "8080:8080"     
     healthcheck:
       test: "curl --fail --silent localhost:8080/actuator/health/readiness | grep UP || exit 1"
       interval: 20s
