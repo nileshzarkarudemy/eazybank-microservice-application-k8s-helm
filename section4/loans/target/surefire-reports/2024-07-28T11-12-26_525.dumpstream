@@ -1,0 +1,5 @@
+# Created at 2024-07-28T11:12:26.800
+Boot Manifest-JAR contains absolute paths in classpath 'D:\Experiments\Microservices\eazybank-microservice-application-k8s-helm\section4\loans\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+
